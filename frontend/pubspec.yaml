@@ -1,0 +1,29 @@
+name: frontend
+description: "AgriAI Precision Agriculture Multimodal Diagnostic Mobile & Web Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0-282.1.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.3
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  http_parser: ^4.1.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true

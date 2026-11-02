@@ -1,0 +1,65 @@
+# AgriAI Application Git Ignore
+
+# Python & Caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+*.tmp
+
+# Environments & Sensitive Config
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Local Database & User Uploads / Generated Reports
+*.sqlite3
+*.db
+*.db-journal
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+local_database/*
+!local_database/.gitkeep
+
+# Flutter / Dart Build Outputs & Dependencies
+frontend/.dart_tool/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+frontend/ios/.symlinks/
+frontend/ios/Pods/
+frontend/ios/Podfile.lock
+frontend/windows/flutter/ephemeral/
+frontend/linux/flutter/ephemeral/
+frontend/macos/Flutter/ephemeral/
+
+# Binaries
+*.apk
+*.aab
+*.exe
+*.dll
+hs_err_pid*
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
